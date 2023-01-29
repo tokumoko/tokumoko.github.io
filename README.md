@@ -1,4 +1,3 @@
 # tokumoko.github.io
-## abcd
-def
 
+[gitの使い方](/source/git.md)
