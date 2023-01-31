@@ -7,3 +7,6 @@ key_file = {
   'test_img':'t10k-images-idx3-ubyte.gz',
   'test_label':'t10k-labels-idx1-ubyte.gz'
 }
+
+dataset_dir = '/home/tokumoko/tokumoko.github.io/source/Documents'
+
