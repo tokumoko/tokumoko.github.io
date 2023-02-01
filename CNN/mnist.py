@@ -8,5 +8,7 @@ key_file = {
   'test_label':'t10k-labels-idx1-ubyte.gz'
 }
 
-dataset_dir = '/home/tokumoko/tokumoko.github.io/source/Documents'
-
+dataset_dir = os.path.dirname
+for v in key_file.values():
+  file_path = dataset_dir + '/' + v
+  urllib.request.urlretrieve(url_base + v, file_path)
